@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name" translatable="false">HelloWorld</string>
+    <string name="form_instructions">Fill all data</string>
+
+    <!--Main activity-->
+    <string name="main_go_button">Well Done!!!</string>
+    <string name="main_instructions">"Oh my god"</string>
+    <!--Main activity-->
+
+    <!--Profile activity-->
+    <string name="profile_submit_button">Save</string>
+    <string name="profile_instructions">Pick an option</string>
+    <!--Profile activity-->
+</resources>

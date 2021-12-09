@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/gondor"
+        tools:src="@drawable/ic_launcher_foreground"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Javier Barreto"
+        tools:text="UserName"
+        android:textSize="25sp"
+        android:textColor="@color/purple_200"
+        android:textStyle="bold"
+        android:letterSpacing=".15"
+        android:textAlignment="center"
+        android:layout_margin="20dp"
+        android:padding="15dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Soy jav"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textAllCaps="true"
+        android:padding="5dp"
+        android:background="@color/blue_285"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:id="@+id/phonenumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0000-0000-011"
+        android:padding="10dp"
+        android:paddingEnd="20dp"
+        android:gravity="end"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/main_instructions"
+        android:padding="10dp"
+        android:paddingEnd="20dp"
+        android:gravity="end"
+        android:textStyle="italic"
+        android:textSize="15sp"
+        />
+
+    <EditText
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:hint="How you say friend in elves language?"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="@color/purple_200"
+        android:textColorHint="@color/purple_200"
+        />
+
+    <Button
+        android:id="@+id/yes_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/main_go_button"
+        android:layout_margin="10dp"
+        />
+
+</LinearLayout>

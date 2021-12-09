@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">GameList</string>
+    <string name="detail_description_text">Description</string>
+</resources>

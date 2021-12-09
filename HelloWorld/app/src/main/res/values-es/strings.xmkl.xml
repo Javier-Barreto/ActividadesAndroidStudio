@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="form_instructions">Llene todo lo solicitado</string>
+
+    <!--Main activity-->
+    <string name="main_go_button">Bien hecho!!!</string>
+    <string name="main_instructions">"Oh por dios"</string>
+    <!--Main activity-->
+
+    <!--Profile activity-->
+    <string name="profile_submit_button">Guardar</string>
+    <string name="profile_instructions">Seleccione una opcion</string>
+    <!--Profile activity-->
+</resources>
